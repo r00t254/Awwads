@@ -1,0 +1,153 @@
+.hello{
+    color:rgb(67, 96, 67);
+}
+#nbar{
+    background-color:rgb(74, 27, 27);
+    color:black;
+}
+.login, #site{
+    text-decoration: none;
+    color:rgb(61, 109, 230);
+}
+
+.login:hover, #site:hover{
+    text-decoration: none;
+    color:rgb(43, 112, 224);
+}
+.brand{
+    font-weight: bolder;
+}
+.account-img {
+    height: 125px;
+    width: 125px;
+}
+.nav-img{
+    height: 30px;
+    width: 30px;
+}
+body{
+    background-color:white;
+}
+#heart{
+    float:right;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+#heart:hover{
+    color:rgb(103, 103, 203);
+    border: 1px solid rgb(80, 80, 92);
+}
+#usern{
+    color: #00bdaa;
+}
+.form-text, .asteriskField{
+    display:none;
+}
+
+.alert{
+    margin:0;
+    padding:0;
+}
+.alert ul li {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    font-size:12px;
+}
+.overlay{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+}
+.over{
+    background-color: rgba(0,0,0,0.5);
+
+}
+#design{
+    color:white;
+    border: 3px solid orange;
+    border-radius: 50%;
+    height:90px;
+    width:90px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-right:10px;
+    margin-left:70px;
+}
+.des,.des1,.des2,.des3{
+    color:white;
+    border-radius: 50%;
+    height:78px;
+    width:78px;
+    padding-top:30%;
+    font-size:17px;
+}
+.des{
+    border: 3px solid rgb(85, 77, 63);
+}
+.des1{
+    border: 3px solid rgb(193, 90, 90);
+}
+.des2{
+    border: 3px solid rgb(86, 86, 162);
+}
+.des3{
+    border: 3px solid rgb(100, 167, 100);
+}
+/* .site-link{
+    padding-top:-20px;!important
+
+} */
+.mi{
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#usable{
+    color:rgb(223, 145, 145);
+    border: 3px solid rgb(95, 95, 189);
+    border-radius: 50%;
+    padding-left:20px;
+    padding-top:20px;
+    height:90px;
+    width:90px;
+    margin-right:10px;
+}
+
+#contente{
+    color:white;
+    border: 3px solid rgb(119, 187, 119);
+    border-radius: 50%;
+    height:90px;
+    width:90px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-right:20px;
+}
+
+.rates{
+    font-size:14px;
+    font-weight:bolder;
+}
+.ting{
+    font-size:14px;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-fluid{
+    padding-right:0px;
+     padding-left:0px;
+}

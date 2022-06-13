@@ -5,7 +5,6 @@ from django.dispatch import receiver
 # from pyuploadcare.dj.models import ImageField
 import datetime as dt
 
-
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
     profile_picture = models.ImageField(upload_to='images/', default='default.png')
@@ -22,9 +21,9 @@ class Profile(models.Model):
         if created:
             Profile.objects.create(user=instance)
 
-    @receiver(post_save, sender=User)
+    """ @receiver(post_save, sender=User)
     def save_user_profile(sender, instance, **kwargs):
-        instance.profile.save()
+        instance.profile.save() """
 
 
 class Post(models.Model):
@@ -33,7 +32,7 @@ class Post(models.Model):
     description = models.TextField(max_length=255)
     technologies = models.CharField(max_length=200, blank=True)
     # photo = ImageField(manual_crop='1280x720')
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="posts")
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True, blank=True)
 
     def __str__(self):

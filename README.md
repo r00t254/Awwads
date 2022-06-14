@@ -44,4 +44,4 @@ Heroku
 
 # Known Bugs
 There are no known bugs currently but pull requests are allowed incase of a bug
-
+# Contact Informations

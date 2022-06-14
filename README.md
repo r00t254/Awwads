@@ -13,6 +13,10 @@ Mary Auma
 # API Keys
 
     "users": "http://127.0.0.1:8000/api/users/",
+    
+     "posts": "http://127.0.0.1:8000/api/posts/",
+    
+    
 
 # User Story
 .A user can view their profile pictures

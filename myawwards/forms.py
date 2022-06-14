@@ -14,7 +14,7 @@ class Meta:
 
 
 class PostForm(forms.ModelForm):
-    photo = ImageField(label='')
+     photo = ImageField(label='')
 
 class Meta:
         model = Post

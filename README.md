@@ -35,6 +35,7 @@ python3.8 manage.py runserver
 python manage.py test
 
 # Technology Used 
+
 Python3.8.10
 
 Django 4.04

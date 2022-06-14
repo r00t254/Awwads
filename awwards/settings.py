@@ -12,9 +12,10 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+import cloudinary
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE","app.settings")
-# exportDJANGO_SETTINGS_MODULE=awwards.settings
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -43,10 +44,16 @@ INSTALLED_APPS = [
     'myawwards',
     'crispy_forms',
     'rest_framework',
-    # 'pyuploadcare.dj',
     'tinymce',
-    
+    'cloudinary'
 ]
+
+cloudinary.config(
+    cloud_name="moringasch",
+    api_key="652372517599923",
+    api_secret="vpCLOd_AERtkc-dEBeGAYFwa1eQ" 
+)
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

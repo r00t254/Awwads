@@ -1,6 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-# from .forms import SignupForm, PostForm, UpdateUserForm, UpdateUserProfileForm, RatingsForm
+from .forms import SignupForm, PostForm, UpdateUserForm, UpdateUserProfileForm, RatingsForm
 from rest_framework import viewsets
 from .models import Profile, Post, Rating
 from .serializer import ProfileSerializer, UserSerializer, PostSerializer
@@ -25,7 +25,7 @@ def index(request):
         posts = posts[::-1]
         a_post = random.randint(0, len(posts)-1)
         random_post = posts[a_post]
-        print(random_post.photo)
+        
     except Post.DoesNotExist:
         posts = None
     return render(request, 'index.html', {'posts': posts, 'form': form, 'random_post': random_post})
@@ -146,6 +146,7 @@ def search_project(request):
     if request.method == 'GET':
         title = request.GET.get("title")
         results = Post.objects.filter(title__icontains=title).all()
+       
         print(results)
         message = f'name'
         params = {

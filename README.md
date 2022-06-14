@@ -11,5 +11,9 @@ Mary Auma
 ![Screenshot from 2022-06-14 15-30-46](https://user-images.githubusercontent.com/100118426/173577782-0c1f480a-ce0d-42aa-b2bc-e941465e9eec.png)
 
 # User Story
+.A user can view their profile pictures
 
+.A user can search for projects
+
+.A user is able to view the projects
 

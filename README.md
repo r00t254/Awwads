@@ -12,11 +12,8 @@ Mary Auma
 
 # API Keys
 
-    "users": "http://127.0.0.1:8000/api/users/",
+    * https://award-254.herokuapp.com/api/users/
     
-     "posts": "http://127.0.0.1:8000/api/posts/",
-     
-      "profile": "http://127.0.0.1:8000/api/profile/"
       
 # User Story
 .A user can view their profile pictures

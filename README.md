@@ -13,6 +13,8 @@ Mary Auma
 # API Keys
 
  * https://award-254.herokuapp.com/api/users/
+
+* https://award-254.herokuapp.com/api/posts/
     
       
 # User Story

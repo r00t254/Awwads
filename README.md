@@ -15,6 +15,8 @@ Mary Auma
  * https://award-254.herokuapp.com/api/users/
 
 * https://award-254.herokuapp.com/api/posts/
+
+*https://award-254.herokuapp.com/api/profile/
     
       
 # User Story
